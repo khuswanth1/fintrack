@@ -1,0 +1,41 @@
+# Environments & Secrets
+
+.env
+.env.*
+!.env.example
+.venv/
+env/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.db
+alembic/versions/*.pyc
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+coverage/
+logs/
+*.log
+npm-debug.log*
+
+# OS / Editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

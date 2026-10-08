@@ -1,0 +1,10 @@
+line-length = 160
+target-version = "py312"
+extend-exclude = ["migrations/versions", ".venv", "app/.venv"]
+
+[lint]
+select = ["E", "F", "W", "I", "B", "UP", "S"]
+ignore = ["B008", "S101", "S105", "S106", "S311", "UP040", "UP046", "E731"]
+
+[lint.per-file-ignores]
+"tests/*" = ["S", "E402"]
